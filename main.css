@@ -699,8 +699,17 @@ div.titulo3:hover{
 .coloritem{
    background-color: #f2f2f2;
 }
+@media screen and (max-width: 858px){
+    .mobileclas p{
+        padding-top: 45px;
+        text-align: center;
+    
+}   
+}
 
-
+.row{
+    padding-bottom: 25px;
+}
 
 
 
