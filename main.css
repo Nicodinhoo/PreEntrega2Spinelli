@@ -131,13 +131,7 @@ ul li a.activo,ul li a:hover{
 
 /* inicio de la section/* */
 
-.pagina1{
-    background-image: url(./Fotos/31173.jpg) ;
-    background-size: cover; 
-    background-position: center center;
-   
 
-}
 
 .contenedor1{
     width: 100%;
@@ -394,19 +388,21 @@ ul li a.activo,ul li a:hover{
 
 
 
+.pagina1{
+    background-image: url(./Fotos/31173.jpg) ;
+    background-size: cover; 
+    background-position: center center;
+   
 
+}
 
 .pagina2{
-    background-image: url(../PAGINA/Fotos/I2XXANNSMNHXFBVMDKGSYBOOCI.jpg) ;
-    background-size: cover;
-    background-position: center center;
+    background-color: #dadada;
     text-align: center;
 
 }
 .pagina3{
-    background-image: url(../PAGINA/Fotos/31181-aviones.png) ;
-    background-size: cover;
-    background-position: center center;
+    background-color: #dadada;
     padding-bottom: 30px;
     text-align: center;
     
