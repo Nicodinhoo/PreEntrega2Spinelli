@@ -388,21 +388,19 @@ ul li a.activo,ul li a:hover{
 
 
 
-.pagina1{
-    background-image: url(./Fotos/31173.jpg) ;
-    background-size: cover; 
-    background-position: center center;
-   
 
-}
 
 .pagina2{
-    background-color: #dadada;
+    background-image: url(../PAGINA/Fotos/I2XXANNSMNHXFBVMDKGSYBOOCI.jpg) ;
+    background-size: cover;
+    background-position: center center;
     text-align: center;
 
 }
 .pagina3{
-    background-color: #dadada;
+    background-image: url(../PAGINA/Fotos/31181-aviones.png) ;
+    background-size: cover;
+    background-position: center center;
     padding-bottom: 30px;
     text-align: center;
     
