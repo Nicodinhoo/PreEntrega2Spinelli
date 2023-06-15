@@ -11,6 +11,7 @@ nav{
 }
 .logo{
     height: 40px;
+    
    
 }
 
@@ -18,33 +19,34 @@ nav {
      ul{
     text-align: right;
     margin-right: 20px;
-    
+     
+    li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;  
+        
+        a{
+            color: #f7f7f7;
+            font-size: 20px;
+            padding: 7px 13px;
+            text-transform: uppercase;
+            border-radius: 3px; 
+            text-decoration: none;
+            font-family: "sigmar-regular";
+            src: url(./Sigmar-Regular.ttf);
+        }
+    }
     
 }
 }
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;  
-
-}
-nav ul li a{
-    color: #f7f7f7;
-    font-size: 20px;
-    padding: 7px 13px;
-    text-transform: uppercase;
-    border-radius: 3px; 
-    text-decoration: none;
-    font-family: "sigmar-regular";
-    src: url(./Sigmar-Regular.ttf);
-}
 
 
 ul li a.activo,ul li a:hover{    
     color:$color-secundario;
     background-color: $color-principal;
     transition: 1s;
+    
 }
 
 
@@ -63,11 +65,9 @@ ul li a.activo,ul li a:hover{
 }
 #chek{
     display: none;
+    
 
 }
-
-
-
 
 
 @media (max-width: 952px){
@@ -80,7 +80,9 @@ ul li a.activo,ul li a:hover{
 @media (max-width: 858px){
     .checkbtn{
         display: block;
+        
     }
+    
     ul{
         
         z-index:3;
@@ -99,11 +101,12 @@ ul li a.activo,ul li a:hover{
         margin: 50px 0;
         line-height: 30px;  
         text-align: center;
+        a{
+            font-size: 20px;
+            
+        }
     }
-    nav ul li a{
-        font-size: 20px;
-        
-    }
+    
     li a:hover, li a.activo{
         background-color:$color-principal;
         color: $color-terciario;
@@ -112,10 +115,11 @@ ul li a.activo,ul li a:hover{
         left:0;
         
     }
+    
     .chekcontacto{
         display: flex;
         padding-top: 15px;
-
+        
 
     }
 }
