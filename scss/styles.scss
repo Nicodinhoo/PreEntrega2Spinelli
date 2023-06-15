@@ -1,36 +1,8 @@
 
-@import 'colores';
-@import 'nav-stilo';
-@import 'piedepagina';
-@import 'paginas-estilos';
-
-
-
-
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;  
-    list-style: none;
-    box-sizing: border-box;
-}
-
-.titulo{
-    
-    font-family: "sigmar-regular";
-    src: url(./Sigmar-Regular.ttf);
-    font-size: 68px;
-    color: $color-terciario;
-    text-align: center;
-
-    &:hover{
-    
-        transform: translate(3%);
-        transition: 2s;
-    }
-}
-
-
+@import 'content/colores';
+@import 'content/nav-stilo';
+@import 'content/piedepagina';
+@import 'content/paginas-estilos';
 
 
 .contenedor1{
@@ -399,10 +371,7 @@
     padding-top:40px ;
     padding-bottom:40px ;
 }
-.titulo2{
-    text-align: center;
-    padding-bottom: 10px;
-}
+
 .coloritem{
    background-color: #f2f2f2;
 }

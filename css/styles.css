@@ -210,6 +210,11 @@ ul li a.activo, ul li a:hover {
   transition: 2s;
 }
 
+.titulo2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .contenedor1 {
   width: 100%;
   display: flex;
@@ -522,11 +527,6 @@ ul li a.activo, ul li a:hover {
 .cuadropreguntas {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.titulo2 {
-  text-align: center;
-  padding-bottom: 10px;
 }
 
 .coloritem {
