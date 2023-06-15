@@ -55,7 +55,10 @@ ul li a.activo,ul li a:hover{
 }
 
 
-
+.menuhamburgesa{
+    height: 50px;
+    width: 50px;
+}
 .checkbtn{
     font-size: 30px;
     color: #ffffff;
