@@ -29,7 +29,7 @@ nav ul li a {
   text-transform: uppercase;
   border-radius: 3px;
   text-decoration: none;
-  font-family: "sigmar-regular";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   src: url(./Sigmar-Regular.ttf);
 }
 
@@ -122,6 +122,7 @@ ul li a.activo, ul li a:hover {
 
 .pagina2 {
   background-color: #dadada;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .pagina3 {
@@ -130,14 +131,17 @@ ul li a.activo, ul li a:hover {
   background-position: center center;
   padding-bottom: 30px;
   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .pagina4 {
   background-color: #f4f4f4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .pagina5 {
   background-color: #dadada;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 * {
