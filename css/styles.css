@@ -58,46 +58,6 @@ ul li a.activo, ul li a:hover {
   display: none;
 }
 
-@media (max-width: 952px) {
-  nav ul li a {
-    font-size: 16px;
-  }
-}
-@media (max-width: 858px) {
-  .checkbtn {
-    display: block;
-  }
-  ul {
-    z-index: 3;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #688fb9;
-    top: 80px;
-    left: 100%;
-    transition: all 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-    text-align: center;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  li a:hover, li a.activo {
-    background-color: #19274e;
-    color: #0f132e;
-  }
-  #chek:checked ~ ul {
-    left: 0;
-  }
-  .chekcontacto {
-    display: flex;
-    padding-top: 15px;
-  }
-}
 .piedepagina {
   width: 100%;
   background-color: #0f132e;
@@ -154,14 +114,6 @@ ul li a.activo, ul li a:hover {
   color: #b49b85;
 }
 
-@media screen and (max-width: 1258px) {
-  .piedepagina .grupo1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
-}
 .pagina1 {
   background-image: url(../Fotos/fondos/31173.jpg);
   background-size: cover;
@@ -366,19 +318,6 @@ ul li a.activo, ul li a:hover {
   color: white;
 }
 
-@media screen and (max-width: 858px) {
-  .cuadro {
-    width: 350px;
-    background-color: #19274e;
-    padding: 30px;
-    border-radius: 8px;
-    margin: auto;
-    margin-top: 100px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: #f7f7f7;
-    box-shadow: 7px 13px 37px #000000;
-  }
-}
 .cuadro .mensaje {
   background-color: #19274e;
   border-radius: 20px;
@@ -402,11 +341,6 @@ ul li a.activo, ul li a:hover {
   box-shadow: 7px 13px 37px #000000;
 }
 
-@media (max-width: 858px) {
-  .imagen2 {
-    width: 100%;
-  }
-}
 .imagenes {
   width: 90%;
   height: 300px;
@@ -426,12 +360,6 @@ ul li a.activo, ul li a:hover {
   background-color: #f2f2f2;
 }
 
-@media screen and (max-width: 858px) {
-  .mobileclas p {
-    padding-top: 45px;
-    text-align: center;
-  }
-}
 .row {
   padding-bottom: 25px;
 }
@@ -480,6 +408,11 @@ ul li a.activo, ul li a:hover {
   font-weight: 750;
 }
 
+@media (max-width: 952px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 858px) {
   .cuadro1 {
     width: 70%;
@@ -491,6 +424,69 @@ ul li a.activo, ul li a:hover {
   .imagenes {
     width: 70%;
     height: 200px;
+  }
+  .mobileclas p {
+    padding-top: 45px;
+    text-align: center;
+  }
+  .cuadrosmapas {
+    background-color: #19274e;
+    border-radius: 6px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    width: 250px;
+    margin-top: 50px;
+    box-shadow: 7px 13px 37px #000000;
+  }
+  .mapas {
+    width: 250px;
+  }
+  .cuadro {
+    width: 350px;
+    background-color: #19274e;
+    padding: 30px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #f7f7f7;
+    box-shadow: 7px 13px 37px #000000;
+  }
+  .imagen2 {
+    width: 100%;
+  }
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #688fb9;
+    top: 80px;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover, li a.activo {
+    background-color: #19274e;
+    color: #0f132e;
+  }
+  #chek:checked ~ ul {
+    left: 0;
+  }
+  .chekcontacto {
+    display: flex;
+    padding-top: 15px;
   }
 }
 .cuadrosmapas {
@@ -519,7 +515,27 @@ ul li a.activo, ul li a:hover {
   color: #f7f7f7;
 }
 
+@media (max-width: 952px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 858px) {
+  .cuadro1 {
+    width: 70%;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 25px 0px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .imagenes {
+    width: 70%;
+    height: 200px;
+  }
+  .mobileclas p {
+    padding-top: 45px;
+    text-align: center;
+  }
   .cuadrosmapas {
     background-color: #19274e;
     border-radius: 6px;
@@ -531,6 +547,61 @@ ul li a.activo, ul li a:hover {
   }
   .mapas {
     width: 250px;
+  }
+  .cuadro {
+    width: 350px;
+    background-color: #19274e;
+    padding: 30px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #f7f7f7;
+    box-shadow: 7px 13px 37px #000000;
+  }
+  .imagen2 {
+    width: 100%;
+  }
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #688fb9;
+    top: 80px;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover, li a.activo {
+    background-color: #19274e;
+    color: #0f132e;
+  }
+  #chek:checked ~ ul {
+    left: 0;
+  }
+  .chekcontacto {
+    display: flex;
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 1258px) {
+  .piedepagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
   }
 }
 
