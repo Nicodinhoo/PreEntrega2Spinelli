@@ -42,58 +42,98 @@
                 
 <main>      
                                     <!-- incio del main -->     
-<section class="pagina2">
+<section class="pagina2 ">
+<article class="container ">
+    <h1 class="titulo">Hace tu reserva</h1>
 
-    <article>
-                    <!-- 3 fotos con texto -->
+    <hr>
+        <div>
 
-<div class="cuadro1">
-  
-
-        <div class="texto1">
-            <img src="../Fotos/sevicios.jpg" alt="" class="imagenes">
-                <h3>Vuelos a todas partes del mundo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magni molestias quidem alias consequuntur voluptatum praesentium voluptatem at veritatis. Eveniet, dicta temporibus? Minus qui saepe quo? Voluptate consequuntur quos fugiat.</p>
-        </div>  
-
-        <div class="texto1">
-            <img src="../Fotos/servicios 1.jpg" alt="" class="imagenes">
-                <h3>Los mejores servicios en viaje</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum voluptatem quas excepturi dignissimos a temporibus facilis dolor, accusantium error dolorum dolores atque repellendus. Ex ipsa tempora non illo, sunt aliquam!</p>
         </div>
-
-        <div class="texto1">
-            <img src="../Fotos/servicios2.jpg" alt="" class="imagenes">
-                <h3>Asesoramiento y la mejor atencion para su viaje</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla non id ipsam delectus fugit, consectetur ullam repellendus eaque molestiae est? Aut delectus tempore nisi in autem error, harum at.</p>
-        </div>
+</article>
 
 
+    <article class="container contenedor3">
+        <div class="card" style="width: 18rem;">
+            <img src="../Fotos/1656524187299_274731706.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sint, quia ipsam voluptas aperiam tenetur beatae voluptatum sed quisquam atque culpa accusamus nihil totam non, omnis placeat unde dolore nemo.</p>
+              <a href="#" class="btn btn-primary">Reservar</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../Fotos/1656524187299_274731706.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sint, quia ipsam voluptas aperiam tenetur beatae voluptatum sed quisquam atque culpa accusamus nihil totam non, omnis placeat unde dolore nemo.</p>
+              <a href="#" class="btn btn-primary">Reservar</a>
+            </div>
+          </div>
+          <div class="card " style="width: 18rem;">
+            <img src="../Fotos/1656524187299_274731706.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sint, quia ipsam voluptas aperiam tenetur beatae voluptatum sed quisquam atque culpa accusamus nihil totam non, omnis placeat unde dolore nemo.</p>
+              <a href="#" class="btn btn-primary ">Reservar</a>
+            </div>
+          </div>
 
-</div>
-                            <!-- fin de las fotos e inicio del formulario -->
-
+         
+          
     </article>
 
 
-        <div class="cuadro">
-        
-            <h2 >Hace tu reserva</h2>
-                <form action="" method="get" enctype="application/x-www-form-urlencoded">
-                    <input class="controles" type="text" name="Numero" id="Numero" placeholder="Ingrese su Numero">
-                    <input class="controles" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre">
-                    <input class="controles" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido">
-                    <input class="controles" type="email" name="email" id="email" placeholder="Ingrese su mail">
-        
+
+    <article class="container">
+        <hr>    
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-3">
+              <label for="inputPassword4" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-3">
+                <label for="inputPassword4" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputPassword4">
+              </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
             
-        <div>
-            <input type="reset" value="Limpear campos"></div>
-            <button>Enviar</button>
-            
-    
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Viaje</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+             
+            <div class="col-12">
                 
-        </div>        
-                                <!-- fin  del formulario -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Acepto <a href="">Terminos y Condiciones </a>
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>      
+         
+
+                   
+   
     </article>
     
 
