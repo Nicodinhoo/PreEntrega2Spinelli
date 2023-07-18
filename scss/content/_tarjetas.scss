@@ -12,14 +12,11 @@
 }
 // la clase de arriba es igual para las 2 tarjetas
 
-.contenedor3{
-    
-    display: flex;
-   
 
-}
 .card{
    margin: 40px;
+   
+   
 }
 //tarjetas del index 
 .contenedor1{
@@ -102,7 +99,7 @@
 
         p {
             line-height: 1.5;
-            color: #dadada;
+            color: #000000;
             font-weight: 400;
             margin-bottom: 15px;
         }
@@ -118,6 +115,55 @@
         }
         h3{
             color: #ffffff;
+        }
+    }
+}
+.img{
+    width: 100%;
+    height: 200px;  
+}
+//tarjetas pajina de reservas
+
+
+.contenedor3{
+    @extend.contenedor1
+
+}
+.caja3{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #ffffff;
+    
+    
+    
+    img{
+        width: 100%;
+        height: 210px;  
+    }
+    .contenido3{
+        text-align: center;
+        padding: 15px;
+
+        p {
+            line-height: 1.5;
+            color: $negro;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+        a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            margin-top: 10px;
+            color: #ffffff;
+            background-color: $color-principal;
+            border-radius: 4px;
+            
+        }
+        h3{
+            color: $negro;
         }
     }
 }
