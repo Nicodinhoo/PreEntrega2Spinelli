@@ -115,9 +115,9 @@ ul li a.activo, ul li a:hover {
 }
 
 .pagina1 {
-  background-image: url(../Fotos/fondos/31173.jpg);
   background-size: cover;
   background-position: center center;
+  background-color: #dadada;
 }
 
 .pagina2 {
@@ -194,7 +194,7 @@ ul li a.activo, ul li a:hover {
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background: #eac195;
+  background: #19274e;
   box-shadow: 7px 3px 37px #000000;
   transition: all 400ms ease;
 }
@@ -210,9 +210,12 @@ ul li a.activo, ul li a:hover {
   text-align: center;
   padding: 15px;
 }
+.caja .contenido h3 {
+  color: #fafafa;
+}
 .caja .contenido p {
   line-height: 1.5;
-  color: #000000;
+  color: #fafafa;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -221,8 +224,8 @@ ul li a.activo, ul li a:hover {
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
-  color: #19274e;
-  border: 1px solid #19274e;
+  color: #fafafa;
+  border: 1px solid #fafafa;
   border-radius: 4px;
   transition: all 400ms ease;
 }
@@ -386,7 +389,24 @@ ul li a.activo, ul li a:hover {
   height: 370px;
   width: 100%;
   border-radius: 7px;
-  box-shadow: 7px 13px 37px #000000;
+}
+
+.imagen3 {
+  height: 250px;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.imagen4 {
+  height: 137px;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.imagen5 {
+  height: 137px;
+  width: 180px;
+  border-radius: 7px;
 }
 
 .imagenes {
@@ -569,6 +589,51 @@ ul li a.activo, ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
+  }
+}
+.cajas {
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.izquierda {
+  display: grid;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas: "contenido contenido" "izquierda izquierda" "bajocontenido bajocontenido" "izqabajo izqabajo";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px;
+  grid-row: auto;
+}
+
+.article .contenido {
+  grid-area: contenido;
+}
+
+.article .izquierda {
+  grid-area: izquierda;
+}
+
+.article .bajocontenido {
+  grid-area: bajocontenido;
+  text-align: center;
+}
+
+.article .izqabajo {
+  grid-area: izqabajo;
+}
+
+@media only screen and (min-width: 768px) {
+  .gridcontainer {
+    display: grid;
+    grid-template-areas: "izquierda contenido " "izquierda contenido " "izqabajo bajocontenido ";
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto 200px;
+    padding-bottom: 50px;
   }
 }
 

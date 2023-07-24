@@ -30,7 +30,7 @@
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: #eac195;
+    background: $color-principal;
     box-shadow: 7px 3px 37px $negro;
     transition: all 400ms ease;
     
@@ -46,10 +46,13 @@
     .contenido{
         text-align: center;
         padding: 15px;
-    
+        h3{
+            color: #fafafa;
+        }
         p {
             line-height: 1.5;
-            color: $negro;
+            color: #fafafa;
+        
             font-weight: 400;
              margin-bottom: 15px;
         }
@@ -58,8 +61,9 @@
             display: inline-block;
             padding: 10px;
             margin-top: 10px;
-            color: $color-principal;
-            border: 1px solid $color-principal ;
+            color: #fafafa;
+            
+            border: 1px solid #fafafa ;
             border-radius: 4px;
             transition: all 400ms ease;
         }
