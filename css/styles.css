@@ -391,12 +391,6 @@ ul li a.activo, ul li a:hover {
   border-radius: 7px;
 }
 
-.imagen3 {
-  height: 250px;
-  width: 100%;
-  border-radius: 7px;
-}
-
 .imagen4 {
   height: 137px;
   width: 100%;
@@ -409,16 +403,19 @@ ul li a.activo, ul li a:hover {
   border-radius: 7px;
 }
 
-.imagenes {
-  width: 90%;
-  height: 300px;
-  display: inline-block;
-  text-align: center;
-  margin: 20px;
-  border-radius: 5px;
-  box-shadow: 7px 13px 37px #000000;
+@media screen and (max-width: 858px) {
+  .imagen4 {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .imagen5 {
+    height: 50%;
+    width: 100%;
+    border-radius: 7px;
+  }
 }
-
 .cuadropreguntas {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -502,6 +499,52 @@ ul li a.activo, ul li a:hover {
   color: #f7f7f7;
 }
 
+.cajas {
+  margin: 10px;
+  display: grid;
+  text-align: center;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas: "contenido " "izquierda " "bajocontenido " "izqabajo ";
+}
+
+.article .contenido {
+  grid-area: contenido;
+}
+
+.article .izquierda {
+  grid-area: izquierda;
+}
+
+.article .bajocontenido {
+  grid-area: bajocontenido;
+  text-align: center;
+}
+
+.article .izqabajo {
+  grid-area: izqabajo;
+}
+
+@media only screen and (min-width: 769px) {
+  .cajas {
+    display: flex;
+  }
+  .bajocontenido {
+    padding-top: 20px;
+  }
+  .izquierda {
+    display: grid;
+  }
+  .gridcontainer {
+    display: grid;
+    grid-template-areas: "izquierda contenido " "izquierda contenido " "izqabajo bajocontenido ";
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto 200px;
+    padding-bottom: 50px;
+  }
+}
 @media (max-width: 952px) {
   nav ul li a {
     font-size: 16px;
@@ -589,51 +632,6 @@ ul li a.activo, ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
-  }
-}
-.cajas {
-  background-color: aqua;
-  margin: 10px;
-  display: flex;
-  text-align: center;
-}
-
-.izquierda {
-  display: grid;
-}
-
-.gridcontainer {
-  display: grid;
-  grid-template-areas: "contenido contenido" "izquierda izquierda" "bajocontenido bajocontenido" "izqabajo izqabajo";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 400px;
-  grid-row: auto;
-}
-
-.article .contenido {
-  grid-area: contenido;
-}
-
-.article .izquierda {
-  grid-area: izquierda;
-}
-
-.article .bajocontenido {
-  grid-area: bajocontenido;
-  text-align: center;
-}
-
-.article .izqabajo {
-  grid-area: izqabajo;
-}
-
-@media only screen and (min-width: 768px) {
-  .gridcontainer {
-    display: grid;
-    grid-template-areas: "izquierda contenido " "izquierda contenido " "izqabajo bajocontenido ";
-    grid-template-columns: 200px auto;
-    grid-template-rows: auto 200px;
-    padding-bottom: 50px;
   }
 }
 

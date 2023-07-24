@@ -103,4 +103,50 @@
     }
 }
 
+.cajas{
+    
+    margin: 10px;
+    
+    display: grid;
+    text-align: center;
+    
+}
 
+
+    //contenido de index
+.gridcontainer{
+    display: grid;
+    grid-template-areas:
+        "contenido "
+        "izquierda "
+        "bajocontenido "
+        "izqabajo ";
+        
+}
+    
+
+.article{
+    .contenido{
+        grid-area: contenido;
+    }
+}
+.article{
+    .izquierda{
+        grid-area: izquierda;
+        
+        
+    }
+}
+.article{
+    .bajocontenido{
+        grid-area: bajocontenido;
+        text-align: center;
+    }
+}
+.article{
+    .izqabajo{
+        
+        grid-area: izqabajo;
+        
+    }
+}

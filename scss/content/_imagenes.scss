@@ -15,13 +15,8 @@
  
  }
 
- .imagen3{
-    height: 250px;
-    width: 100%;
-    border-radius: 7px;
-    
+ //imagnes del index
 
-}
 .imagen4{
     height: 137px;
     width: 100%;
@@ -36,15 +31,24 @@
     
 
 }
+@media screen and (max-width: 858px){
+    .imagen4{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 5px;
+        
+    
+    }
+    .imagen5{
+        height: 50%;
+        width: 100%;
+        border-radius: 7px;
+        
+    
+    }
 
-
-//pagina de reservas
- .imagenes{
-    width: 90%;
-    height: 300px;
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 7px 13px 37px $negro;
 }
+
+
+ 
